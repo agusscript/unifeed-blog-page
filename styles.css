@@ -12,6 +12,12 @@ header {
   height: 120px;
 }
 
+.menu-btn {
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+
 .logo {
   width: 100px;
 }
@@ -30,7 +36,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: rgb(124, 123, 123);;
+  color: rgb(124, 123, 123);
 }
 
 nav a:hover {
@@ -61,7 +67,7 @@ nav button:hover {
   gap: 1rem;
 }
 
-.principal-card img {
+.img-article-principal {
   width: 50%;
   height: 300px;
   border-radius: 0.6rem;
@@ -143,3 +149,166 @@ footer {
   justify-content: space-between;
   color: rgb(124, 123, 123);
 }
+
+ @media (max-width: 1130px) {
+  .principal-card {
+    width: 100%;
+    height: 650px;
+    display: block;
+  }
+  
+  .img-article-principal {
+    width: 100%;
+    height: 330px;
+  }
+
+  .img-article {
+    width: 100%;
+    height: 330px;
+  }
+
+  .content {
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+  
+  .content h1 {
+    width: 100%;
+    margin: 0;
+    font-size: 2.4rem;
+    line-height: 2.7rem;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  .container-cards {
+    display: block;
+  }
+
+  .card {
+    width: 100%;
+    height: 600px;
+    margin-top: 2rem;
+  }
+
+  .card h2 {
+    height: 2rem;
+  }
+ }
+
+ @media(max-width: 670px) {
+  body {
+    margin: 0 2rem;
+  }
+
+  .principal-card {
+    height: 650px;
+  }
+  
+  .img-article-principal {
+    height: 300px;
+  }
+
+  .img-article {
+    height: 300px;
+  }
+  
+  .content h1 {
+    margin: 0;
+    font-size: 2rem;
+    line-height: 2.7rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .card {
+    height: 530px;
+  }
+
+  .card h2 {
+    font-size: 1.6rem;
+  }
+
+  .profile img {
+    width: 48px;
+    height: 48px;
+  }
+
+  nav a {
+    font-size: 0.9rem;
+  }
+
+  nav button {
+    width: 90px;
+    height: 42px;
+  }
+ }
+
+ @media (max-width: 540px) {
+  body {
+    margin: 0 1rem;
+  }
+
+  nav a {
+    display: none;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .principal-card {
+    height: 620px;
+  }
+
+  .img-article-principal {
+    height: 220px;
+  }
+
+  .img-article {
+    height: 220px;
+  }
+
+  .content h1 {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+  }
+
+  .card{
+    margin-top: 0;
+    height: 480px;
+  }
+
+  .card h2 {
+    font-size: 1.3rem;
+    height: 1.3rem;
+    height: 1.6rem;
+    line-height: 1.4rem;
+  }
+
+  .card p {
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    height: 1.6rem;
+  }
+
+  footer {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+ }
