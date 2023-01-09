@@ -1,4 +1,145 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0 5rem;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 120px;
+}
+
+.logo {
+  width: 100px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  margin-right: 2rem;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(124, 123, 123);;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav button {
+  border: none;
+  width: 110px;
+  height: 52px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  background-color: rgb(235, 134, 2);
+  border-radius: 0.3rem;
+}
+
+nav button:hover {
+  cursor: pointer;
+  color: rgb(235, 134, 2);
+  background-color: rgb(29, 29, 29);
+}
+
+.principal-card {
+  width: 100%;
+  height: 400px;
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.principal-card img {
+  width: 50%;
+  height: 300px;
+  border-radius: 0.6rem;
+}
+
+.content {
+  margin-left: 3rem;
+}
+
+.content h1 {
+  width: 100%;
+  margin: 0;
+  font-size: 2.2rem;
+  line-height: 2.7rem;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  letter-spacing: 1px;
+  width: 90%;
+  color: rgb(124, 123, 123);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  width: 58px;
+  height: 58px;
+}
+
+.profile div {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.profile h4 {
+  height: 0;
+}
+
+.container-cards {
+  display: flex;
+  gap: 2rem;
+}
+
+.card {
+  width: 410px;
+  height: 480px;
+}
+
+.card h2 {
+  width: 90%;
+  height: 4rem;
+  font-size: 1.9rem;
+  line-height: 2.4rem;
+}
+
+.card p {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  width: 90%;
+  color: rgb(124, 123, 123);
+}
+
+.img-article {
+  width: 100%;
+  border-radius: 0.6rem;
+}
+
+footer {
+  margin-top: 4rem;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(124, 123, 123);
 }
