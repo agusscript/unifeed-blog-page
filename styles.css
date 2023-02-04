@@ -12,13 +12,15 @@ header {
   height: 120px;
 }
 
+.occult {
+  display: none;
+}
+
 .hamburger-btn {
   position: fixed;
   right: 5%;
   border: none;
-  width: 42px;
-  height: 42px;
-  background-color: white;
+  background: none;
   display: none;
 }
 
@@ -32,9 +34,14 @@ header {
 }
 
 .close {
-  width: 35px;
+  width: 40px;
   height: 40px;
   display: none;
+  background-color: aliceblue;
+}
+
+.show {
+  display: block;
 }
 
 .logo {
@@ -285,11 +292,24 @@ footer {
   }
 
   .nav-bar {
-    display: none;
+    position: fixed;
+    flex-direction: column;
+    background-color: rgb(29, 29, 29);
+    width: calc(100% - 2rem);
+    height: 50%;
+    top: -100%;
+    transition: all 0.4s;
   }
 
-  .suscribe-btn {
+  .nav-ul {
     flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 2rem 0;
+  }
+
+  .nav-bar-active {
+    top: 0;
   }
 
   .suscribe-btn:hover {
