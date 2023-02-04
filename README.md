@@ -19,7 +19,7 @@ Users should be able to:
 
 - Mobile active view
 
-![](images/screenshot-mobile-active.webp)
+![](images/mobile-active-state.webp)
 
 ### Link
 
